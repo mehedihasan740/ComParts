@@ -92,5 +92,23 @@
   <ItemGroup>
     <None Include="Resources\macbook1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-12-07 at 8.52.58 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-12-07 at 8.52.58 PM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-12-07 at 8.52.58 PM1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

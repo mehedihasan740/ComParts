@@ -73,6 +73,36 @@ namespace ComParts.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_back_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-back-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_back_25 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-back-25", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_back_251 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-back-251", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_menu_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-menu-30", resourceCulture);
@@ -96,6 +126,36 @@ namespace ComParts.Properties {
         internal static System.Drawing.Bitmap macbook1 {
             get {
                 object obj = ResourceManager.GetObject("macbook1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_12_07_at_8_52_58_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-12-07 at 8.52.58 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_12_07_at_8_521 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-12-07 at 8.521", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_12_07_at_8_522 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-12-07 at 8.522", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
