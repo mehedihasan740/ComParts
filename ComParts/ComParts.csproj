@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -124,6 +125,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\m100-500x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g502-hero-1-500x500.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

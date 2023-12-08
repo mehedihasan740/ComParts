@@ -73,6 +73,16 @@ namespace ComParts.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap g502_hero_1_500x500 {
+            get {
+                object obj = ResourceManager.GetObject("g502-hero-1-500x500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_back_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-back-24", resourceCulture);
