@@ -123,9 +123,29 @@ namespace ComParts.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap m100_500x500 {
+            get {
+                object obj = ResourceManager.GetObject("m100-500x500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap macbook1 {
             get {
                 object obj = ResourceManager.GetObject("macbook1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Razer {
+            get {
+                object obj = ResourceManager.GetObject("Razer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
