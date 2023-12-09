@@ -63,6 +63,16 @@ namespace ComParts.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap basilisk_x_hyperspeed_500x500 {
+            get {
+                object obj = ResourceManager.GetObject("basilisk-x-hyperspeed-500x500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap computer {
             get {
                 object obj = ResourceManager.GetObject("computer", resourceCulture);
@@ -116,6 +126,26 @@ namespace ComParts.Properties {
         internal static System.Drawing.Bitmap icons8_menu_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-menu-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_minus_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minus-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_plus_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-plus-24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
