@@ -103,6 +103,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -421,7 +422,7 @@
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Image = global::ComParts.Properties.Resources.icons8_plus_24;
-            this.button4.Location = new System.Drawing.Point(736, 688);
+            this.button4.Location = new System.Drawing.Point(736, 699);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(66, 48);
             this.button4.TabIndex = 81;
@@ -431,7 +432,7 @@
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Image = global::ComParts.Properties.Resources.icons8_minus_24;
-            this.button3.Location = new System.Drawing.Point(584, 688);
+            this.button3.Location = new System.Drawing.Point(584, 699);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(66, 48);
             this.button3.TabIndex = 80;
@@ -817,7 +818,7 @@
             this.button6.BackColor = System.Drawing.Color.LightSalmon;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button6.Location = new System.Drawing.Point(813, 688);
+            this.button6.Location = new System.Drawing.Point(813, 699);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(204, 48);
             this.button6.TabIndex = 83;
@@ -827,7 +828,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(653, 688);
+            this.button5.Location = new System.Drawing.Point(653, 699);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(80, 48);
             this.button5.TabIndex = 82;
@@ -943,6 +944,17 @@
             this.label1.TabIndex = 60;
             this.label1.Text = "ComParts";
             // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label68.ForeColor = System.Drawing.Color.LightSalmon;
+            this.label68.Location = new System.Drawing.Point(580, 627);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(106, 24);
+            this.label68.TabIndex = 87;
+            this.label68.Text = "4,700 BDT";
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -950,6 +962,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1064, 961);
+            this.Controls.Add(this.label68);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -1066,5 +1079,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label68;
     }
 }
