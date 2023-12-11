@@ -136,9 +136,9 @@
             this.groupBox2.Controls.Add(this.label37);
             this.groupBox2.Controls.Add(this.label38);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox2.Location = new System.Drawing.Point(35, 1892);
+            this.groupBox2.Location = new System.Drawing.Point(1, 1892);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(986, 260);
+            this.groupBox2.Size = new System.Drawing.Size(1067, 260);
             this.groupBox2.TabIndex = 86;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Where Commerce Meets Artistry in Every Purchase!";
@@ -666,9 +666,9 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(33, 177);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(199, 16);
+            this.label8.Size = new System.Drawing.Size(201, 16);
             this.label8.TabIndex = 70;
-            this.label8.Text = "/ Accessories / Mouse / RAZER ";
+            this.label8.Text = "/ Accessories / Mouse / Logitech";
             // 
             // label44
             // 
@@ -978,6 +978,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Name = "Form5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
