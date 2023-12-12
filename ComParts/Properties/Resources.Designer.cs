@@ -63,6 +63,26 @@ namespace ComParts.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _354384_200 {
+            get {
+                object obj = ResourceManager.GetObject("354384-200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _360_F_443660687_MxPjYylxElpxXnHJPJpfW1APuRUcN0Ux {
+            get {
+                object obj = ResourceManager.GetObject("360_F_443660687_MxPjYylxElpxXnHJPJpfW1APuRUcN0Ux", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap basilisk_x_hyperspeed_500x500 {
             get {
                 object obj = ResourceManager.GetObject("basilisk-x-hyperspeed-500x500", resourceCulture);
@@ -186,6 +206,16 @@ namespace ComParts.Properties {
         internal static System.Drawing.Bitmap macbook1 {
             get {
                 object obj = ResourceManager.GetObject("macbook1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap password {
+            get {
+                object obj = ResourceManager.GetObject("password", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
