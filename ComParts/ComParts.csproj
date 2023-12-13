@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
@@ -77,6 +78,30 @@
     <Compile Include="Form5.Designer.cs">
       <DependentUpon>Form5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -93,6 +118,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -163,6 +200,29 @@
     <None Include="Resources\icons8-plus-24.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\mae-mu-WqQwOQ9fVj4-unsplash.jpg" />
+    <None Include="Resources\william-daigneault-ju3eqN0gl6Y-unsplash.jpg" />
+    <None Include="Resources\wp5419946-4k-colorful-desktop-wallpapers1.jpg" />
+    <None Include="Resources\wp5419946-4k-colorful-desktop-wallpapers.jpg" />
+    <None Include="Resources\password.png" />
+    <None Include="Resources\360_F_443660687_MxPjYylxElpxXnHJPJpfW1APuRUcN0Ux.jpg" />
+    <None Include="Resources\354384-200.png" />
+    <None Include="Resources\777497-200.png" />
+    <None Include="Resources\777497-2001.png" />
+    <None Include="Resources\863823.png" />
+    <None Include="Resources\4616089.png" />
+    <None Include="Resources\421648.png" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\desktop-wallpaper-computer-programmer-graphic-designer.jpg" />
+    <None Include="Resources\9a955241-2129-4629-b6a1-f355254e8f40.jpg" />
+    <None Include="Resources\9a955241-2129-4629-b6a1-f355254e8f401.jpg" />
+    <None Include="Resources\desktop-wallpaper-computer-programmer-graphic-designer1.jpg" />
+    <None Include="Resources\9a955241-2129-4629-b6a1-f355254e8f402.jpg" />
+    <None Include="Resources\jez-timms-r4lM2v9M84Q-unsplash.jpg" />
+    <None Include="Resources\andrej-lisakov-V2OyJtFqEtY-unsplash.jpg" />
+    <None Include="Resources\andrej-lisakov-V2OyJtFqEtY-unsplash1.jpg" />
+    <None Include="Resources\andrej-lisakov-V2OyJtFqEtY-unsplash2.jpg" />
+    <None Include="Resources\andrej-lisakov-V2OyJtFqEtY-unsplash3.jpg" />
     <Content Include="Resources\m100-500x500.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
