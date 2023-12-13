@@ -60,6 +60,7 @@
             this.checkBox1.TabIndex = 29;
             this.checkBox1.Text = "Show Password";
             this.checkBox1.UseVisualStyleBackColor = false;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // textBox1
             // 
@@ -68,11 +69,11 @@
             this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textBox1.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Silver;
-            this.textBox1.Location = new System.Drawing.Point(427, 393);
+            this.textBox1.Location = new System.Drawing.Point(427, 338);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(219, 24);
             this.textBox1.TabIndex = 28;
-            this.textBox1.Text = "E-mail";
+            this.textBox1.Text = "Username";
             this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
             this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
@@ -83,11 +84,11 @@
             this.textBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textBox2.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.Silver;
-            this.textBox2.Location = new System.Drawing.Point(427, 338);
+            this.textBox2.Location = new System.Drawing.Point(427, 393);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(219, 24);
             this.textBox2.TabIndex = 25;
-            this.textBox2.Text = "Username";
+            this.textBox2.Text = "E-mail";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
             this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
@@ -105,6 +106,7 @@
             this.textBox3.TabIndex = 30;
             this.textBox3.Text = "Password";
             this.textBox3.Enter += new System.EventHandler(this.textBox3_Enter);
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             this.textBox3.Leave += new System.EventHandler(this.textBox3_Leave);
             // 
             // label1
@@ -184,6 +186,7 @@
             this.button2.TabIndex = 33;
             this.button2.Text = "Create Account";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form7
             // 
